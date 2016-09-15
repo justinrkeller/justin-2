@@ -95,4 +95,16 @@ while(x<=17){
   
 #Answer for exercise 8
 
+Fun<-function(x) {
+  if(x<=-1){
+  cat("small")
+  }
+  else if(x>-1&&x<1){
+    cat("medium")
+  }
+  else{
+    cat("big")
+  }
+}
 
+#Answer for exercise 9
